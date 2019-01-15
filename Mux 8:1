@@ -1,4 +1,4 @@
-<shape aspect="variable" h="90" name="Mux4:1" strokewidth="inherit" w="60">
+<shape aspect="variable" h="90" name="Mux8:1" strokewidth="inherit" w="60">
   <connections>
     <constraint name="in1" perimeter="0" x="0" y="0.056"/>
     <constraint name="in2" perimeter="0" x="0" y="0.165"/>
@@ -7,26 +7,26 @@
     <constraint name="in5" perimeter="0" x="0" y="0.50"/>
     <constraint name="in6" perimeter="0" x="0" y="0.61"/>
     <constraint name="in7" perimeter="0" x="0" y="0.723"/>
-    <constraint name="in8" perimeter="0" x="0" y="0.83"/>
-    <constraint name="out" perimeter="0" x="1" y="0.5"/>
-    <constraint name="control1" perimeter="0" x="0.415" y="1"/>
-    <constraint name="control2" perimeter="0" x="0.585" y="1"/>
-    <constraint name="control2" perimeter="0" x="0.751" y="1"/>
+    <constraint name="in8" perimeter="0" x="0" y="0.835"/>
+    <constraint name="out" perimeter="0" x="1" y="0.445"/>
+    <constraint name="control1" perimeter="0" x="0.415" y="0.94"/>
+    <constraint name="control2" perimeter="0" x="0.585" y="0.94"/>
+    <constraint name="control3" perimeter="0" x="0.751" y="0.94"/>
   </connections>
   <background>
     <path>
       <move x="10" y="0"/>
-      <line x="50" y="20"/>
-      <line x="50" y="70"/>
-      <line x="10" y="90"/>
+      <line x="50" y="15"/>
+      <line x="50" y="65"/>
+      <line x="10" y="80"/>
       <close/>
     </path>
   </background>
   <foreground>
     <fillstroke/>
     <path>
-      <move x="50" y="45"/>
-      <line x="60" y="45"/>
+      <move x="50" y="40"/>
+      <line x="60" y="40"/>
       <move x="0" y="75"/>
       <line x="10" y="75"/>
       <move x="0" y="65"/>
@@ -43,12 +43,12 @@
       <line x="10" y="15"/>
       <move x="0" y="5"/>
       <line x="10" y="5"/>
-      <move x="25" y="82.5"/>
-      <line x="25" y="90"/>
-      <move x="35" y="77.5"/>
-      <line x="35" y="90"/>
-      <move x="45" y="72.5"/>
-      <line x="45" y="90"/>
+      <move x="25" y="74.5"/>
+      <line x="25" y="85"/>
+      <move x="35" y="70.5"/>
+      <line x="35" y="85"/>
+      <move x="45" y="66.5"/>
+      <line x="45" y="85"/>
     </path>
     <stroke/>
   </foreground>
