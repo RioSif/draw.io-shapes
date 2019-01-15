@@ -1,4 +1,4 @@
-<shape aspect="variable" h="90" name="Mux4:1" strokewidth="inherit" w="60">
+<shape aspect="variable" h="90" name="Mux 4:1" strokewidth="inherit" w="60">
   <connections>
     <constraint name="in1" perimeter="0" x="0" y="0.165"/>
     <constraint name="in2" perimeter="0" x="0" y="0.39"/>
