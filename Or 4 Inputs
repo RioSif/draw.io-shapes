@@ -1,0 +1,36 @@
+<shape aspect="variable" h="60" name="OR" strokewidth="inherit" w="100">
+  <connections>
+    <constraint name="in1" perimeter="0" x="0" y="0.165"/>
+    <constraint name="in2" perimeter="0" x="0" y="0.398"/>
+    <constraint name="in3" perimeter="0" x="0" y="0.600"/>
+    <constraint name="in4" perimeter="0" x="0" y="0.835"/>
+    <constraint name="out" perimeter="0" x="1" y="0.5"/>
+  </connections>
+  <background>
+    <path>
+      <move x="15" y="0"/>
+      <line x="40" y="0"/>
+      <arc large-arc-flag="0" rx="45" ry="50" sweep-flag="1" x="80" x-axis-rotation="0" y="30"/>
+      <arc large-arc-flag="0" rx="45" ry="50" sweep-flag="1" x="40" x-axis-rotation="0" y="60"/>
+      <line x="15" y="60"/>
+      <arc large-arc-flag="0" rx="60" ry="60" sweep-flag="0" x="15" x-axis-rotation="0" y="0"/>
+      <close/>
+    </path>
+  </background>
+  <foreground>
+    <fillstroke/>
+    <path>
+      <move x="0" y="10"/>
+      <line x="20" y="10"/>
+      <move x="0" y="50"/>
+      <line x="20" y="50"/>
+      <move x="0" y="24"/>
+      <line x="23" y="24"/>
+      <move x="0" y="36"/>
+      <line x="23" y="36"/>
+      <move x="80" y="30"/>
+      <line x="100" y="30"/>
+    </path>
+    <stroke/>
+  </foreground>
+</shape>
